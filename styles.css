@@ -1,7 +1,7 @@
 body{
     background-color: rgb(161, 161, 161);
     font-family: Alegreya, serif;
-    font-size: xx-large;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -109,10 +109,13 @@ h1{
 }
 
 @media only screen and (max-width: 1400px) { 
+    .project{
+        transform: scale(50%);
+    }
     .bio { 
         display: none; 
     } 
     nav{
-        top:20%;
+        top:10%;
     }
   }
