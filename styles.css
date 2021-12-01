@@ -1,3 +1,93 @@
+body{
+    background-color: rgb(161, 161, 161);
+    font-family: Alegreya, serif;
+    font-size: xx-large;
+    margin: 0;
+}
+
+#profile-pic{
+    position: fixed;
+    top: -1vh;
+    width: 15%;
+    left: 7vw;
+    z-index: 110;
+}
+
+main{
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    margin-left: .5vw;
+    z-index: 110;
+}
+
 h1{
-   color: blue;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: azure;
+    margin: 0;
+    width:100%;
+    z-index: 100;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    position: absolute;
+    right: 20vw;
+    background-color: rgb(109, 108, 108);
+    width: 50%;
+    padding: 1%;
+    margin: 0;
+    height: 100%;
+}
+
+.project{
+    border: 2px solid #000000;
+    border-radius: 2%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#demo-link{
+    color: azure;
+    background-color: rgb(77, 76, 76);
+    width: 100%;
+    text-align: center;
+    border-radius: 0px 0px 9px 9px;
+}
+
+.nav-pic-linked{
+    position: relative;
+    top: 7vh;
+    width:5%;
+}
+
+.nav-pic-git{
+    position: relative;
+    top: 8.2vh;
+    width: 7%;
+}
+
+#project-container-head{
+    margin-top: 10vh;
+}
+
+.project-head{
+    text-align: center;
+    background-color: rgb(77, 76, 76);
+    color: azure;
+    width:100%;
+    margin-top: 0;
+    border-radius: 9px 9px 0px 0px;
 }
